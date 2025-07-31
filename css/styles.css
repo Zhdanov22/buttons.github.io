@@ -1,0 +1,478 @@
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url("../fonts/IBMPlexSans-SemiBold.eot");
+  src: local("IBMPlexSans-SemiBold"), url("../fonts/IBMPlexSans-SemiBold.woff") format("woff"), url("../fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  background: #fff;
+  font-size: 14px; }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%; }
+  .wrapper .container_button_l {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .wrapper .container_button_l button {
+      margin: 0 10px; }
+    .wrapper .container_button_l button {
+      margin: 0 10px; }
+      .wrapper .container_button_l button:disabled {
+        background: #EFEFEF;
+        cursor: default;
+        pointer-events: none; }
+        .wrapper .container_button_l button:disabled span {
+          color: #A6A6A6; }
+        .wrapper .container_button_l button:disabled path {
+          fill: #BFBFBF; }
+    .wrapper .container_button_l .rimary_button {
+      background: #272733;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s;
+      position: relative; }
+      .wrapper .container_button_l .rimary_button:hover {
+        background: #151515;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .rimary_button:focus {
+        box-shadow: 0 0 0 4px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .rimary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_l .rimary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_l .rimary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_l .rimary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_l .rimary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+    .wrapper .container_button_l .secondary_button {
+      background: #EDF2F4;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_l .secondary_button path {
+        fill: #272733; }
+      .wrapper .container_button_l .secondary_button:hover {
+        background: #E2EBEE;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .secondary_button:focus {
+        box-shadow: 0 0 0 4px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .secondary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_l .secondary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_l .secondary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_l .secondary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_l .secondary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #272733;
+        line-height: 20px; }
+    .wrapper .container_button_l .danger_button {
+      background: #E52421;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_l .danger_button:hover {
+        background: #D80F16;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .danger_button:focus {
+        box-shadow: 0 0 0 4px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_l .danger_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_l .danger_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_l .danger_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_l .danger_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_l .danger_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+  .wrapper .container_button_m {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .wrapper .container_button_m button {
+      margin: 0 10px; }
+    .wrapper .container_button_m button {
+      margin: 0 10px; }
+      .wrapper .container_button_m button:disabled {
+        background: #EFEFEF;
+        cursor: default;
+        pointer-events: none; }
+        .wrapper .container_button_m button:disabled span {
+          color: #A6A6A6; }
+        .wrapper .container_button_m button:disabled path {
+          fill: #BFBFBF; }
+    .wrapper .container_button_m .rimary_button {
+      background: #272733;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s;
+      position: relative; }
+      .wrapper .container_button_m .rimary_button:hover {
+        background: #151515;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .rimary_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .rimary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_m .rimary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_m .rimary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_m .rimary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_m .rimary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+    .wrapper .container_button_m .secondary_button {
+      background: #EDF2F4;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_m .secondary_button path {
+        fill: #272733; }
+      .wrapper .container_button_m .secondary_button:hover {
+        background: #E2EBEE;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .secondary_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .secondary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_m .secondary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_m .secondary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_m .secondary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_m .secondary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #272733;
+        line-height: 20px; }
+    .wrapper .container_button_m .danger_button {
+      background: #E52421;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_m .danger_button:hover {
+        background: #D80F16;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .danger_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_m .danger_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_m .danger_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_m .danger_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_m .danger_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_m .danger_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+  .wrapper .container_button_s {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .wrapper .container_button_s button {
+      margin: 0 10px; }
+    .wrapper .container_button_s button {
+      margin: 0 10px; }
+      .wrapper .container_button_s button:disabled {
+        background: #EFEFEF;
+        cursor: default;
+        pointer-events: none; }
+        .wrapper .container_button_s button:disabled span {
+          color: #A6A6A6; }
+        .wrapper .container_button_s button:disabled path {
+          fill: #BFBFBF; }
+    .wrapper .container_button_s .rimary_button {
+      background: #272733;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s;
+      position: relative; }
+      .wrapper .container_button_s .rimary_button:hover {
+        background: #151515;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .rimary_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .rimary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_s .rimary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_s .rimary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_s .rimary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_s .rimary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+    .wrapper .container_button_s .secondary_button {
+      background: #EDF2F4;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_s .secondary_button path {
+        fill: #272733; }
+      .wrapper .container_button_s .secondary_button:hover {
+        background: #E2EBEE;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .secondary_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .secondary_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_s .secondary_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_s .secondary_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_s .secondary_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_s .secondary_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #272733;
+        line-height: 20px; }
+    .wrapper .container_button_s .danger_button {
+      background: #E52421;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+      .wrapper .container_button_s .danger_button:hover {
+        background: #D80F16;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .danger_button:focus {
+        box-shadow: 0 0 0 3px #C5D1F7;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s; }
+      .wrapper .container_button_s .danger_button:active svg {
+        opacity: 0.7; }
+      .wrapper .container_button_s .danger_button:active span {
+        opacity: 0.7; }
+      .wrapper .container_button_s .danger_button svg:first-child {
+        margin-right: 6px; }
+      .wrapper .container_button_s .danger_button svg:last-child {
+        margin-left: 6px; }
+      .wrapper .container_button_s .danger_button span {
+        font-family: 'IBM Plex Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        line-height: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
