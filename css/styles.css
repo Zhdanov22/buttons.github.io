@@ -19,14 +19,13 @@ body, html {
   flex-direction: column;
   height: 100%; }
   .wrapper .container_button_l {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
     .wrapper .container_button_l button {
-      margin: 0 10px; }
-    .wrapper .container_button_l button {
-      margin: 0 10px; }
+      margin: 10px; }
       .wrapper .container_button_l button:disabled {
         background: #EFEFEF;
         cursor: default;
@@ -171,14 +170,13 @@ body, html {
         color: #fff;
         line-height: 20px; }
   .wrapper .container_button_m {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
     .wrapper .container_button_m button {
-      margin: 0 10px; }
-    .wrapper .container_button_m button {
-      margin: 0 10px; }
+      margin: 10px; }
       .wrapper .container_button_m button:disabled {
         background: #EFEFEF;
         cursor: default;
@@ -323,14 +321,13 @@ body, html {
         color: #fff;
         line-height: 20px; }
   .wrapper .container_button_s {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
     .wrapper .container_button_s button {
-      margin: 0 10px; }
-    .wrapper .container_button_s button {
-      margin: 0 10px; }
+      margin: 10px; }
       .wrapper .container_button_s button:disabled {
         background: #EFEFEF;
         cursor: default;
